@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Default" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Guid>9173511e-038c-4220-8817-a357de09e30c</Guid>
+    <Name>PsionicsExMachina</Name>
+    <Description>Description of My XCOM 2 Mod. PsionicsExMachina.</Description>
+    <SteamPublishID>0</SteamPublishID>
+    <AssemblyName>PsionicsExMachina</AssemblyName>
+    <RootNamespace>PsionicsExMachina</RootNamespace>
+    <ProjectGuid>{65162786-3235-48ca-b923-f14314862de0}</ProjectGuid>
+  </PropertyGroup>
+  <ItemGroup>
+    <Folder Include="Config\" />
+    <Folder Include="Localization\" />
+    <Folder Include="Content" />
+    <Folder Include="Content\Maps\" />
+    <Folder Include="Content\Maps\Strategy\" />
+    <Folder Include="Content\Maps\Strategy\Avenger\" />
+    <Folder Include="Content\Maps\Strategy\Avenger\Rooms\" />
+    <Folder Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\" />
+    <Folder Include="Src\" />
+    <Folder Include="Src\LW_Tuple" />
+    <Folder Include="Src\LW_Tuple\Classes" />
+    <Folder Include="Src\PsionicsExMachina\" />
+    <Folder Include="Src\PsionicsExMachina\Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\XcomClassData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComContent.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameCore.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComGameData_WeaponData.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComNoMorePsiAmps.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPistolSlot.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPsionicsExMachina.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComPsionicsExMachina_Abilities.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComWOTC_CostBasedAbilityColors.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComAbilityToSlotReassignment.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Config\XComEncyclopedia.ini">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\UILibrary_PexM.upk">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A_Anim.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A_Damaged.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A_Disabled.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A_Pristine.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Content\Maps\Strategy\Avenger\Rooms\PexMLab\AVG_PexMLab_A_VIEWER.umap">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="ReadMe.txt" />
+    <Content Include="ModPreview.jpg" />
+    <Content Include="Config\XComEditor.ini" />
+    <Content Include="Config\XComEngine.ini" />
+    <Content Include="Config\XComGame.ini" />
+    <Content Include="Localization\XComGame.int" />
+    <Content Include="Localization\PsionicsExMachina.int" />
+    <Content Include="Src\LW_Tuple\Classes\LWTuple.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2DownloadableContentInfo_PsionicsExMachina.uc" />
+    <Content Include="Src\PsionicsExMachina\Classes\UIChoosePexMProject.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\UIInventory_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\UIFacility_PexMLab.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\UIFacility_PexMLabSlot.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\UIPersonnel_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2EventListener_ClarityWillEvent.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2EventListener_PsiIconOnDSL.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2Item_PsionicsExMachina.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2Ability_PsionicsExMachina.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2Effect_ManualOverride_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2Effect_AbilityCostRefund_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2StrategyElement_PexMFacilities.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2StrategyElement_PexMFacilitiesUpgrades.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2StrategyElement_PexMStaffSlots.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2StrategyElement_PsionicsExMachina.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\XComGameState_HeadquartersProjectPexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\XComGameState_HeadquartersProjectPexMTraining.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\XComGameStateContext_HeadquartersOrder_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\XComHQPresentationLayer_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2EventListener_UIChoosePexM_Resources.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2EventListener_PCSIcons_Fix_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\X2EventListener_StatusOfPexMTraining.uc">
+      <SubType>Content</SubType>
+    </Content>
+    <Content Include="Src\PsionicsExMachina\Classes\UISL_AvengerHUD_Shortcuts_PexM.uc">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildLocalExtensionPath)\XCOM2.targets" />
+</Project>
